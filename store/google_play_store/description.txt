@@ -1,0 +1,3 @@
+trainIt is an app, every athlete needs. It keeps your fully custom training-plan, so you get an overview about your training. So you don’t need to use your smartphone’s nodes app, you can track your personal records by ease. Here are the core-features of trainIt:
+- create fully customizable training-plans
+- track your personal records over the time

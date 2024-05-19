@@ -1,0 +1,344 @@
+{
+  "_note1": "KEEP THIS FILE! Check it into a version control system (VCS) like git.",
+  "_note2": "ObjectBox manages crucial IDs for your object model. See docs for details.",
+  "_note3": "If you have VCS merge conflicts, you must resolve them according to ObjectBox docs.",
+  "entities": [
+    {
+      "id": "1:4849667807843407755",
+      "lastPropertyId": "9:1555637372754937792",
+      "name": "Account",
+      "properties": [
+        {
+          "id": "1:2778960743461429185",
+          "name": "localId",
+          "type": 6,
+          "flags": 129
+        },
+        {
+          "id": "2:3081051829993570867",
+          "name": "id",
+          "type": 9,
+          "flags": 8,
+          "indexId": "1:2800211682391743115"
+        },
+        {
+          "id": "3:2715854693646702863",
+          "name": "username",
+          "type": 9
+        },
+        {
+          "id": "4:496082056411372849",
+          "name": "isPublicProfile",
+          "type": 1
+        },
+        {
+          "id": "5:3240950918114382004",
+          "name": "trainingPlanId",
+          "type": 9
+        },
+        {
+          "id": "6:1003672401371746085",
+          "name": "averageSetDuration",
+          "type": 6
+        },
+        {
+          "id": "7:5405825989244156147",
+          "name": "averageSetRestDuration",
+          "type": 6
+        },
+        {
+          "id": "8:2338935098224023352",
+          "name": "lastModified",
+          "type": 10
+        },
+        {
+          "id": "9:1555637372754937792",
+          "name": "dbWeightUnit",
+          "type": 9
+        }
+      ],
+      "relations": []
+    },
+    {
+      "id": "2:5659378173678465772",
+      "lastPropertyId": "8:2101840251122463530",
+      "name": "WeekCalendar",
+      "properties": [
+        {
+          "id": "1:6299669097076545789",
+          "name": "localId",
+          "type": 6,
+          "flags": 129
+        },
+        {
+          "id": "2:3674831496108725241",
+          "name": "dbDay0",
+          "type": 9
+        },
+        {
+          "id": "3:5301792988502225902",
+          "name": "dbDay1",
+          "type": 9
+        },
+        {
+          "id": "4:5273768443301880454",
+          "name": "dbDay2",
+          "type": 9
+        },
+        {
+          "id": "5:1708680965953830710",
+          "name": "dbDay3",
+          "type": 9
+        },
+        {
+          "id": "6:6070152468624132304",
+          "name": "dbDay4",
+          "type": 9
+        },
+        {
+          "id": "7:8200805175988974636",
+          "name": "dbDay5",
+          "type": 9
+        },
+        {
+          "id": "8:2101840251122463530",
+          "name": "dbDay6",
+          "type": 9
+        }
+      ],
+      "relations": []
+    },
+    {
+      "id": "3:8994632026693427634",
+      "lastPropertyId": "6:3475508437401202989",
+      "name": "TrainingPlan",
+      "properties": [
+        {
+          "id": "1:4452923561244176305",
+          "name": "localId",
+          "type": 6,
+          "flags": 1
+        },
+        {
+          "id": "2:8074965613498263275",
+          "name": "id",
+          "type": 9,
+          "flags": 2048,
+          "indexId": "2:5136192384165117407"
+        },
+        {
+          "id": "3:5567499014708004409",
+          "name": "name",
+          "type": 9
+        },
+        {
+          "id": "4:3261609857836792588",
+          "name": "createdOn",
+          "type": 10
+        },
+        {
+          "id": "5:6807222300332925659",
+          "name": "accountId",
+          "type": 9
+        },
+        {
+          "id": "6:3475508437401202989",
+          "name": "dbDays",
+          "type": 9
+        }
+      ],
+      "relations": []
+    },
+    {
+      "id": "4:7362574525054490347",
+      "lastPropertyId": "8:3314971149336731331",
+      "name": "PersonalRecord",
+      "properties": [
+        {
+          "id": "1:8756753917451781670",
+          "name": "localId",
+          "type": 6,
+          "flags": 1
+        },
+        {
+          "id": "2:7534377007088775106",
+          "name": "name",
+          "type": 9,
+          "flags": 2048,
+          "indexId": "3:2673675471456852256"
+        },
+        {
+          "id": "4:2559246882481199491",
+          "name": "isFavorite",
+          "type": 1
+        },
+        {
+          "id": "5:8874785927496092323",
+          "name": "date",
+          "type": 10
+        },
+        {
+          "id": "7:8540266665930780440",
+          "name": "dbType",
+          "type": 9
+        },
+        {
+          "id": "8:3314971149336731331",
+          "name": "value",
+          "type": 8
+        }
+      ],
+      "relations": []
+    },
+    {
+      "id": "5:2476601455262710749",
+      "lastPropertyId": "5:547881862033158667",
+      "name": "BodyValue",
+      "properties": [
+        {
+          "id": "1:2997345783499037020",
+          "name": "localId",
+          "type": 6,
+          "flags": 1
+        },
+        {
+          "id": "2:1962657401029390642",
+          "name": "value",
+          "type": 8
+        },
+        {
+          "id": "4:5424960244915207236",
+          "name": "dbType",
+          "type": 9
+        },
+        {
+          "id": "5:547881862033158667",
+          "name": "date",
+          "type": 10,
+          "flags": 8,
+          "indexId": "6:1073542018584533921"
+        }
+      ],
+      "relations": []
+    },
+    {
+      "id": "6:4292096387365014185",
+      "lastPropertyId": "9:6423807230893816637",
+      "name": "Goal",
+      "properties": [
+        {
+          "id": "1:5166710658886405427",
+          "name": "localId",
+          "type": 6,
+          "flags": 1
+        },
+        {
+          "id": "2:6089524306825966088",
+          "name": "id",
+          "type": 9,
+          "flags": 2048,
+          "indexId": "5:3503130796096401249"
+        },
+        {
+          "id": "3:644683819121549129",
+          "name": "name",
+          "type": 9
+        },
+        {
+          "id": "4:7165789301938381004",
+          "name": "createdOn",
+          "type": 10
+        },
+        {
+          "id": "5:5429343970049526334",
+          "name": "from",
+          "type": 8
+        },
+        {
+          "id": "6:4107608260451417629",
+          "name": "to",
+          "type": 8
+        },
+        {
+          "id": "7:5475977833287741347",
+          "name": "isDone",
+          "type": 1
+        },
+        {
+          "id": "8:1575179414238134811",
+          "name": "dbType",
+          "type": 9
+        },
+        {
+          "id": "9:6423807230893816637",
+          "name": "dbUnit",
+          "type": 9
+        }
+      ],
+      "relations": []
+    },
+    {
+      "id": "7:2060208927138195776",
+      "lastPropertyId": "9:7688014085130392559",
+      "name": "Friendship",
+      "properties": [
+        {
+          "id": "1:6384222610568385064",
+          "name": "localId",
+          "type": 6,
+          "flags": 129
+        },
+        {
+          "id": "2:3883970517336878661",
+          "name": "userId",
+          "type": 9
+        },
+        {
+          "id": "3:2503150988247539383",
+          "name": "username",
+          "type": 9
+        },
+        {
+          "id": "6:4298566260862622555",
+          "name": "isFriendFollowingMeDate",
+          "type": 10
+        },
+        {
+          "id": "7:3082466322536190610",
+          "name": "isMeFollowingFriendDate",
+          "type": 10
+        },
+        {
+          "id": "8:4481230631986500241",
+          "name": "isMeFollowingFriendAccepted",
+          "type": 1
+        },
+        {
+          "id": "9:7688014085130392559",
+          "name": "isFriendFollowingMeAccepted",
+          "type": 1
+        }
+      ],
+      "relations": []
+    }
+  ],
+  "lastEntityId": "7:2060208927138195776",
+  "lastIndexId": "6:1073542018584533921",
+  "lastRelationId": "0:0",
+  "lastSequenceId": "0:0",
+  "modelVersion": 5,
+  "modelVersionParserMinimum": 5,
+  "retiredEntityUids": [],
+  "retiredIndexUids": [
+    393735636421168357
+  ],
+  "retiredPropertyUids": [
+    6945386997066098111,
+    6645479796472661392,
+    2278012454994763930,
+    5503560166589272406,
+    3592512131344290267
+  ],
+  "retiredRelationUids": [],
+  "version": 1
+}

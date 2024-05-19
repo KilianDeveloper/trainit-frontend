@@ -1,0 +1,363 @@
+{
+    "account": {
+        "id": "a28VMwRLc6Z89RENj3q3dQySEoJ3",
+        "username": "StativJovo",
+        "isPublicProfile": true,
+        "weightUnit": "kg",
+        "averageSetDuration": 90,
+        "averageSetRestDuration": 345,
+        "trainingPlanId": "682487e1-f8b2-4908-819c-ed012ab006fa",
+        "personalRecords": [
+            {
+                "date": "2023-08-20T10:09:06",
+                "name": "Bench Press",
+                "unit": "kg",
+                "value": 200,
+                "isFavorite": false
+            },
+            {
+                "date": "2023-08-20T10:36:27",
+                "name": "Box Jump",
+                "unit": "m",
+                "value": 1.55,
+                "isFavorite": false
+            }
+        ],
+        "calendarTrainings": [
+            {
+                "id": "69d6d167-4a3b-47cd-a436-b9bb3539eaef",
+                "date": "2023-08-23",
+                "name": "Back + Biceps",
+                "partners": [],
+                "exercises": [
+                    {
+                        "id": "5f274dbe-7509-4f7f-aae1-85fffddd845b",
+                        "name": "Rowing",
+                        "sets": [
+                            {
+                                "repetitions": 12
+                            },
+                            {
+                                "repetitions": 12
+                            },
+                            {
+                                "repetitions": 12
+                            }
+                        ]
+                    },
+                    {
+                        "id": "54a0594f-166c-422e-9cf6-b6ea0013be8d",
+                        "name": "Lat Pulldown",
+                        "sets": [
+                            {
+                                "repetitions": 12
+                            },
+                            {
+                                "repetitions": 10
+                            },
+                            {
+                                "repetitions": 10
+                            }
+                        ]
+                    },
+                    {
+                        "id": "aec821a9-9c24-4cb2-b508-d1c29d16cb7e",
+                        "name": "Bent Over Flies",
+                        "sets": [
+                            {
+                                "repetitions": 10
+                            },
+                            {
+                                "repetitions": 10
+                            },
+                            {
+                                "repetitions": 10
+                            }
+                        ]
+                    },
+                    {
+                        "id": "6466c1ab-a634-4af4-bc47-5cd8b71489e5",
+                        "name": "Barbell Curls",
+                        "sets": [
+                            {
+                                "repetitions": 12
+                            },
+                            {
+                                "repetitions": 12
+                            },
+                            {
+                                "repetitions": 12
+                            }
+                        ]
+                    },
+                    {
+                        "id": "ec8a7890-5f8e-40f7-a806-a0d90c25f4ce",
+                        "name": "Hammer Curls",
+                        "sets": [
+                            {
+                                "repetitions": 12
+                            },
+                            {
+                                "repetitions": 12
+                            },
+                            {
+                                "repetitions": 12
+                            }
+                        ]
+                    }
+                ],
+                "baseTrainingId": "10308475-635e-4697-a962-801893c577f6"
+            }
+        ],
+        "lastModified": "2023-08-22T14:11:29.000Z"
+    },
+    "trainingPlans": [
+        {
+            "id": "682487e1-f8b2-4908-819c-ed012ab006fa",
+            "name": "3 Day Split",
+            "days": {
+                "friday": [],
+                "monday": [
+                    {
+                        "id": "2371ef8d-b9c4-41c5-8c15-1d610925228c",
+                        "name": "Chest + Triceps + Shoulders",
+                        "exercises": [
+                            {
+                                "id": "990fd2bb-8156-4125-ad6d-83587ffbdbf4",
+                                "name": "Bench Press",
+                                "sets": [
+                                    {
+                                        "repetitions": 8
+                                    },
+                                    {
+                                        "repetitions": 8
+                                    },
+                                    {
+                                        "repetitions": 6
+                                    }
+                                ]
+                            },
+                            {
+                                "id": "f52854d5-a446-49da-ad15-54b32f8c8ea7",
+                                "name": "Incline Dumbell Press",
+                                "sets": [
+                                    {
+                                        "repetitions": 12
+                                    },
+                                    {
+                                        "repetitions": 10
+                                    },
+                                    {
+                                        "repetitions": 8
+                                    }
+                                ]
+                            },
+                            {
+                                "id": "7f86bec8-9571-4f0a-9c3f-160805404dd6",
+                                "name": "Lateral Raises",
+                                "sets": [
+                                    {
+                                        "repetitions": 12
+                                    },
+                                    {
+                                        "repetitions": 12
+                                    },
+                                    {
+                                        "repetitions": 12
+                                    }
+                                ]
+                            },
+                            {
+                                "id": "d046f288-bbf3-40a3-8f19-b430ef32b209",
+                                "name": "Skullcrushers",
+                                "sets": [
+                                    {
+                                        "repetitions": 12
+                                    },
+                                    {
+                                        "repetitions": 10
+                                    },
+                                    {
+                                        "repetitions": 8
+                                    }
+                                ]
+                            },
+                            {
+                                "id": "36cf9cef-65f9-4846-92ee-3bc982875e79",
+                                "name": "Rope Pressdown",
+                                "sets": [
+                                    {
+                                        "repetitions": 10
+                                    },
+                                    {
+                                        "repetitions": 10
+                                    },
+                                    {
+                                        "repetitions": 10
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ],
+                "sunday": [],
+                "tuesday": [],
+                "saturday": [],
+                "thursday": [
+                    {
+                        "id": "360bd5ce-49f7-4a2c-b64f-530ae3692254",
+                        "name": "Legs",
+                        "exercises": [
+                            {
+                                "id": "b7d8c171-51b5-42d7-bad3-e924f7c771a2",
+                                "name": "Squat",
+                                "sets": [
+                                    {
+                                        "repetitions": 8
+                                    },
+                                    {
+                                        "repetitions": 8
+                                    },
+                                    {
+                                        "repetitions": 8
+                                    }
+                                ]
+                            },
+                            {
+                                "id": "66dcf6f5-e2a1-4666-b24b-2834289800a5",
+                                "name": "Leg Press",
+                                "sets": [
+                                    {
+                                        "repetitions": 10
+                                    },
+                                    {
+                                        "repetitions": 10
+                                    },
+                                    {
+                                        "repetitions": 10
+                                    }
+                                ]
+                            },
+                            {
+                                "id": "04ce8f86-ec7d-49aa-b880-8b7db01f2063",
+                                "name": "Leg Extension",
+                                "sets": [
+                                    {
+                                        "repetitions": 12
+                                    },
+                                    {
+                                        "repetitions": 10
+                                    },
+                                    {
+                                        "repetitions": 8
+                                    }
+                                ]
+                            },
+                            {
+                                "id": "6c2cacd0-1dca-4dfc-9b5c-a0cd14d2f994",
+                                "name": "Calf Raises",
+                                "sets": [
+                                    {
+                                        "repetitions": 12
+                                    },
+                                    {
+                                        "repetitions": 12
+                                    },
+                                    {
+                                        "repetitions": 12
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ],
+                "wednesday": [
+                    {
+                        "id": "10308475-635e-4697-a962-801893c577f6",
+                        "name": "Back + Biceps",
+                        "exercises": [
+                            {
+                                "id": "5f274dbe-7509-4f7f-aae1-85fffddd845b",
+                                "name": "Rowing",
+                                "sets": [
+                                    {
+                                        "repetitions": 12
+                                    },
+                                    {
+                                        "repetitions": 12
+                                    },
+                                    {
+                                        "repetitions": 12
+                                    }
+                                ]
+                            },
+                            {
+                                "id": "54a0594f-166c-422e-9cf6-b6ea0013be8d",
+                                "name": "Lat Pulldown",
+                                "sets": [
+                                    {
+                                        "repetitions": 12
+                                    },
+                                    {
+                                        "repetitions": 10
+                                    },
+                                    {
+                                        "repetitions": 10
+                                    }
+                                ]
+                            },
+                            {
+                                "id": "aec821a9-9c24-4cb2-b508-d1c29d16cb7e",
+                                "name": "Bent Over Flies",
+                                "sets": [
+                                    {
+                                        "repetitions": 10
+                                    },
+                                    {
+                                        "repetitions": 10
+                                    },
+                                    {
+                                        "repetitions": 10
+                                    }
+                                ]
+                            },
+                            {
+                                "id": "6466c1ab-a634-4af4-bc47-5cd8b71489e5",
+                                "name": "Barbell Curls",
+                                "sets": [
+                                    {
+                                        "repetitions": 12
+                                    },
+                                    {
+                                        "repetitions": 12
+                                    },
+                                    {
+                                        "repetitions": 12
+                                    }
+                                ]
+                            },
+                            {
+                                "id": "ec8a7890-5f8e-40f7-a806-a0d90c25f4ce",
+                                "name": "Hammer Curls",
+                                "sets": [
+                                    {
+                                        "repetitions": 12
+                                    },
+                                    {
+                                        "repetitions": 12
+                                    },
+                                    {
+                                        "repetitions": 12
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+            "createdOn": "2023-02-16T00:00:00.000Z",
+            "accountId": "a28VMwRLc6Z89RENj3q3dQySEoJ3"
+        }
+    ],
+    "alreadyUpToDate": false
+}
