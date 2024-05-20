@@ -46,3 +46,6 @@ app.*.map.json
 lib/objectbox.g.dart
 android/app/google-services.json
 ios/Runner/GoogleService-Info.plist
+.emulator/firebase-export-metadata.json
+.emulator/auth_export/accounts.json
+.emulator/auth_export/config.json
